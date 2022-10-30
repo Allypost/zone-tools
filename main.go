@@ -12,7 +12,7 @@ import (
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Printf("%s v%s\n\n", version.BuildProgramName(), version.BuildVersion())
-		fmt.Println("Usage:\n\t", version.BuildProgramName(), "./path/to/zonefile")
+		fmt.Println("Usage:\n\t", version.BuildProgramName(), "./path/to/zonefile1", "./path/to/zonefile2", "...")
 		os.Exit(1)
 	}
 
